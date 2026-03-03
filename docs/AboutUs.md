@@ -57,3 +57,13 @@ You can reach us at the email `seer[at]comp.nus.edu.sg`
 
 * Role: Developer
 * Responsibilities: UI
+
+### Sean Sukamto
+
+<img src="images/seansukamto.png" width="200px">
+
+[[github](http://github.com/seansukamto)]
+[[portfolio](http://github.com/seansukamto)]
+
+* Role: Developer
+* Responsibilities: UI, Model
