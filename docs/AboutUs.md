@@ -9,7 +9,6 @@ You can reach us at the email `seer[at]comp.nus.edu.sg`
 
 ## Project team
 
-
 ### Henry Tse
 
 <img src="images/iota113.png" width="200px">
