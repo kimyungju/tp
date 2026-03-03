@@ -9,15 +9,16 @@ You can reach us at the email `seer[at]comp.nus.edu.sg`
 
 ## Project team
 
-### John Doe
+### Henry Tse
 
-<img src="images/johndoe.png" width="200px">
+<img src="images/iota113.png" width="200px">
 
-[[homepage](http://www.comp.nus.edu.sg/~damithch)]
-[[github](https://github.com/johndoe)]
-[[portfolio](team/johndoe.md)]
+[[homepage](http://iota113.github.io)]
+[[github](https://github.com/iota113)]
+[[portfolio](http://iota113.github.io))]
 
-* Role: Project Advisor
+* Role: Deliverables and deadlines, Scheduling and tracking
+* Responsibilities: Model, Logic
 
 ### Kim Yungju
 
