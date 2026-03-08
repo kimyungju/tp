@@ -308,11 +308,11 @@ Priorities: High (must have) - `* * *`, Medium (nice to have) - `* *`, Low (unli
 **Use case 01: Add a student**
 
 **Guarantees:**
-* A student is added if and only if all required parameters are valid and is not a duplicate
+* A student is added if and only if all required parameters are valid and is not a duplicate.
 
 **MSS**
 
-1. Tutor enters the command to add a student
+1. Tutor enters the command to add a student.
 2. OnlyTutors saves the changes and shows confirmation.
 
     Use case ends.
@@ -328,7 +328,48 @@ Priorities: High (must have) - `* * *`, Medium (nice to have) - `* *`, Low (unli
   
     Use case ends
 
+**Use case 02: Delete a student**
 
+**Guarantees**
+* A student is deleted if and only if the `INDEX` parameter is valid and refers to an existing student.
+
+**MSS**
+1. Tutor enters the command to delete a student.
+2. OnlyTutors deletes the student at the specified index.
+3. OnlyTutors shows a confirmation message with the deleted student's information.
+
+Use case ends.
+
+**Extensions**
+* 1a. OnlyTutors detects a missing, invalid or non-integer index
+  *  1a1. OnlyTutors shows an error message.
+  
+     Use case ends.
+
+**Use case 03: List all students**
+
+**Guarantees**
+* Displays all students currently stored in the system, including all their details 
+(name, phone, address, lesson day/time, tuition rate, payment status, tags).
+* If no students exist, displays an empty list message.
+
+**MSS**
+1. Tutor enters the command list.
+2. OnlyTutors retrieves all student contacts from the system.
+3. OnlyTutors displays the list of students with all relevant details.
+
+Use case ends.
+
+**Extensions**
+* 1a. OnlyTutors detects an unknown command or typo
+    * 1a1. OnlyTutors displays an error message.
+
+        Use case ends.
+
+* 2a. OnlyTutors detects no existing student contacts in the system
+    * 2a1. OnlyTutors displays a notification message.
+  
+        Use case ends.
 
 *{More to be added}*
 
