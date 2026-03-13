@@ -1,9 +1,7 @@
 ---
 layout: page
-title: OnlyTutors Developer Guide
+title: Developer Guide
 ---
-
-# OnlyTutors Developer Guide
 
 * Table of Contents
 {:toc}
