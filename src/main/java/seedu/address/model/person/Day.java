@@ -17,14 +17,15 @@ public class Day {
     public final String value;
 
     /**
-     * Constructs a {@code Tuition Rate}.
+     * Constructs a {@code Day}.
+     * Convets String day to lowercase.
      *
-     * @param lessonDay A valid tuition rate.
+     * @param day A valid tuition day.
      */
-    public Day(String lessonDay) {
-        requireNonNull(lessonDay);
-        checkArgument(isValidDay(lessonDay), MESSAGE_CONSTRAINTS);
-        value = lessonDay;
+    public Day(String day) {
+        requireNonNull(day);
+        checkArgument(isValidDay(day), MESSAGE_CONSTRAINTS);
+        value = day.toLowerCase();
     }
 
     /**

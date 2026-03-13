@@ -12,7 +12,7 @@ public class Rate {
     public static final String MESSAGE_CONSTRAINTS =
             "Tuition Rate should only contain numbers (non-negative integers).";
 
-    public static final String VALIDATION_REGEX = ".*\\d.*";
+    public static final String VALIDATION_REGEX = "^\\d+$";
 
     public final String value;
 
