@@ -73,6 +73,10 @@ public class CommandTestUtil {
     public static final String INVALID_EMAIL_DESC = " " + PREFIX_EMAIL + "bob!yahoo"; // missing '@' symbol
     public static final String INVALID_ADDRESS_DESC = " " + PREFIX_ADDRESS; // empty string not allowed for addresses
     public static final String INVALID_TAG_DESC = " " + PREFIX_TAG + "hubby*"; // '*' not allowed in tags
+    public static final String INVALID_DAY_DESC = " " + PREFIX_DAY + "Funday"; // not a valid day of the week
+    public static final String INVALID_START_TIME_DESC = " " + PREFIX_START + "3 pm"; // not in HH:mm format
+    public static final String INVALID_END_TIME_DESC = " " + PREFIX_END + "25:00"; // not a valid time
+    public static final String INVALID_RATE_DESC = " " + PREFIX_RATE + "-0"; // tuition rate cannot be negative
 
     public static final String PREAMBLE_WHITESPACE = "\t  \r  \n";
     public static final String PREAMBLE_NON_EMPTY = "NonEmptyPreamble";
