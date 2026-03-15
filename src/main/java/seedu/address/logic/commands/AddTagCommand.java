@@ -1,14 +1,15 @@
 package seedu.address.logic.commands;
 
-import java.util.Objects;
 import static java.util.Objects.requireNonNull;
+import static seedu.address.logic.parser.CliSyntax.PREFIX_TAG;
+
+import java.util.Objects;
 import java.util.Set;
 
 import seedu.address.commons.core.index.Index;
 import seedu.address.commons.util.ToStringBuilder;
 import seedu.address.logic.Messages;
 import seedu.address.logic.commands.exceptions.CommandException;
-import static seedu.address.logic.parser.CliSyntax.PREFIX_TAG;
 import seedu.address.model.Model;
 import seedu.address.model.person.Person;
 import seedu.address.model.tag.Tag;
@@ -28,7 +29,6 @@ public class AddTagCommand extends TagCommand {
             + "1 "
             + PREFIX_TAG + "Primary1 "
             + PREFIX_TAG + "Mathematics";
-
 
     public static final String MESSAGE_SUCCESS = "Tag(s) added to person: %1$s";
 
@@ -67,10 +67,9 @@ public class AddTagCommand extends TagCommand {
     @Override
     public String toString() {
         return new ToStringBuilder(this)
-                .add("targetIndex", getTargetIndex())
-                .add("tagsToAdd", getTags())
-                .toString();
+            .add("targetIndex", getTargetIndex())
+            .add("tagsToAdd", getTags())
+            .toString();
     }
-
 }
 

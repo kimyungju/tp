@@ -1,8 +1,8 @@
 package seedu.address.model;
 
 import java.nio.file.Path;
-import java.util.function.Predicate;
 import java.util.Set;
+import java.util.function.Predicate;
 
 import javafx.collections.ObservableList;
 import seedu.address.commons.core.GuiSettings;
@@ -72,15 +72,15 @@ public interface Model {
     void addPerson(Person person);
 
     /**
-    * Adds the given tags to the person.
-    * {@code target} must exist in the address book.
-    */
+     * Adds the given tags to the person.
+     * {@code target} must exist in the address book.
+     */
     void addTagsToPerson(Person target, Set<Tag> tagsToAdd);
 
     /**
-    * Deletes the given tags from the person.
-    * {@code target} must exist in the address book.
-    */
+     * Deletes the given tags from the person.
+     * {@code target} must exist in the address book.
+     */
     void deleteTagsFromPerson(Person target, Set<Tag> tagsToDelete);
 
     /**

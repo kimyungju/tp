@@ -1,12 +1,19 @@
 # Gradle build files
 /.gradle/
 /build/
+/bin/
 src/main/resources/docs/
 
 # IDEA files
 /.idea/
 /out/
 /*.iml
+
+# VS Code workspace files
+/.vscode/*
+!/.vscode/extensions.json
+!/.vscode/launch.json
+!/.vscode/tasks.json
 
 # Storage/log files
 /data/

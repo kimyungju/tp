@@ -1,12 +1,12 @@
 package seedu.address.logic.parser;
 
 import static seedu.address.logic.Messages.MESSAGE_INVALID_COMMAND_FORMAT;
+
 import seedu.address.logic.commands.AddTagCommand;
 import seedu.address.logic.commands.Command;
 import seedu.address.logic.commands.DeleteTagCommand;
 import seedu.address.logic.commands.TagCommand;
 import seedu.address.logic.parser.exceptions.ParseException;
-
 
 /**
  * Parses input arguments and creates the appropriate TagCommand object (AddTagCommand or DeleteTagCommand)
@@ -41,5 +41,4 @@ public class TagCommandParser implements Parser<Command> {
 
         throw new ParseException(String.format(MESSAGE_INVALID_COMMAND_FORMAT, MESSAGE_USAGE));
     }
-
 }
